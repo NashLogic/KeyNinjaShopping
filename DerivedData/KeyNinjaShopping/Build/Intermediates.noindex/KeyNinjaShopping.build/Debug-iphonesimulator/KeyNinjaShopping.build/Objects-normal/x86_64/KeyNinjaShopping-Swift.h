@@ -227,11 +227,15 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class UIStackView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC16KeyNinjaShopping14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified HeaderStackView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

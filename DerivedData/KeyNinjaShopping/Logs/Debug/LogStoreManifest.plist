@@ -5,6 +5,347 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>20B0081B-66AF-42D7-A0D1-6B619E7149D6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>20B0081B-66AF-42D7-A0D1-6B619E7149D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184629.84968805</real>
+			<key>timeStoppedRecording</key>
+			<real>612184645.82913399</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>20B0081B-66AF-42D7-A0D1-6B619E7149D6</string>
+		</dict>
+		<key>28544C46-E8B7-4C17-8874-901F5A4E810E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>28544C46-E8B7-4C17-8874-901F5A4E810E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184781.00435305</real>
+			<key>timeStoppedRecording</key>
+			<real>612184792.45742798</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>28544C46-E8B7-4C17-8874-901F5A4E810E</string>
+		</dict>
+		<key>29C80D17-F208-4CE0-972D-89D3B154C48C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>29C80D17-F208-4CE0-972D-89D3B154C48C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612183980.547979</real>
+			<key>timeStoppedRecording</key>
+			<real>612184299.85157394</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>29C80D17-F208-4CE0-972D-89D3B154C48C</string>
+		</dict>
+		<key>38C7C4C5-003E-4758-A3A2-EFB20BF35FEB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>38C7C4C5-003E-4758-A3A2-EFB20BF35FEB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612180995.64196706</real>
+			<key>timeStoppedRecording</key>
+			<real>612181025.52556598</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>38C7C4C5-003E-4758-A3A2-EFB20BF35FEB</string>
+		</dict>
+		<key>3B8F9A24-0D04-491A-8074-B6D1BC857DDB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3B8F9A24-0D04-491A-8074-B6D1BC857DDB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184499.22453403</real>
+			<key>timeStoppedRecording</key>
+			<real>612184628.03070903</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>3B8F9A24-0D04-491A-8074-B6D1BC857DDB</string>
+		</dict>
+		<key>4F4706E3-25BC-47DD-AC62-107B70B6AFE3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4F4706E3-25BC-47DD-AC62-107B70B6AFE3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184301.75789905</real>
+			<key>timeStoppedRecording</key>
+			<real>612184391.38317895</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>4F4706E3-25BC-47DD-AC62-107B70B6AFE3</string>
+		</dict>
+		<key>8D30F445-B811-4617-9E0F-C267429C8DA1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8D30F445-B811-4617-9E0F-C267429C8DA1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184647.80848098</real>
+			<key>timeStoppedRecording</key>
+			<real>612184705.07146001</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>8D30F445-B811-4617-9E0F-C267429C8DA1</string>
+		</dict>
+		<key>C4666961-2B8B-45E8-83DE-931AAE449323</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C4666961-2B8B-45E8-83DE-931AAE449323.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184720.15821803</real>
+			<key>timeStoppedRecording</key>
+			<real>612184762.41488099</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>C4666961-2B8B-45E8-83DE-931AAE449323</string>
+		</dict>
+		<key>DB7D3D00-5313-4B23-A2DA-AA9B39156A14</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB7D3D00-5313-4B23-A2DA-AA9B39156A14.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184400.07690501</real>
+			<key>timeStoppedRecording</key>
+			<real>612184461.69241595</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>DB7D3D00-5313-4B23-A2DA-AA9B39156A14</string>
+		</dict>
+		<key>F2B193D1-A4FA-4476-BD5C-F4C159DA3DE8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F2B193D1-A4FA-4476-BD5C-F4C159DA3DE8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>612184764.38337696</real>
+			<key>timeStoppedRecording</key>
+			<real>612184777.98982894</real>
+			<key>title</key>
+			<string>Debug KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>F2B193D1-A4FA-4476-BD5C-F4C159DA3DE8</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

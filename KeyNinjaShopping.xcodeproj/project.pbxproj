@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		569AFF6F247D29F8001C4761 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569AFF6E247D29F8001C4761 /* ShoppingItem.swift */; };
+		569AFF71247D2C2D001C4761 /* DataItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569AFF70247D2C2D001C4761 /* DataItems.swift */; };
 		56BD5D03247BA4A900947A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD5D02247BA4A900947A0B /* AppDelegate.swift */; };
 		56BD5D05247BA4A900947A0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD5D04247BA4A900947A0B /* SceneDelegate.swift */; };
 		56BD5D07247BA4A900947A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD5D06247BA4A900947A0B /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		569AFF6E247D29F8001C4761 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		569AFF70247D2C2D001C4761 /* DataItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItems.swift; sourceTree = "<group>"; };
 		56BD5CFF247BA4A900947A0B /* KeyNinjaShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyNinjaShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BD5D02247BA4A900947A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56BD5D04247BA4A900947A0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		569AFF6D247D29D7001C4761 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				569AFF6E247D29F8001C4761 /* ShoppingItem.swift */,
+				569AFF70247D2C2D001C4761 /* DataItems.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		56BD5CF6247BA4A800947A0B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		56BD5D01247BA4A900947A0B /* KeyNinjaShopping */ = {
 			isa = PBXGroup;
 			children = (
+				569AFF6D247D29D7001C4761 /* Common */,
 				56BD5D18247BA4E700947A0B /* Storyboards */,
 				56BD5D17247BA4D200947A0B /* ViewControllers */,
 				56BD5D16247BA4C100947A0B /* Delegates */,
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569AFF71247D2C2D001C4761 /* DataItems.swift in Sources */,
+				569AFF6F247D29F8001C4761 /* ShoppingItem.swift in Sources */,
 				56BD5D07247BA4A900947A0B /* ViewController.swift in Sources */,
 				56BD5D03247BA4A900947A0B /* AppDelegate.swift in Sources */,
 				56BD5D05247BA4A900947A0B /* SceneDelegate.swift in Sources */,
