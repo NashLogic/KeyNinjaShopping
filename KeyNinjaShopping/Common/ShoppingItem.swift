@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ShoppingItem : Codable {
+struct ShoppingItem : Decodable {
     let id: Int32
     let code: String
     let displayName: String

@@ -8,10 +8,16 @@
 
 import Foundation
 
-struct DataItems : Codable {
+struct DataItems : Decodable {
     let data: [ShoppingItem]
     let error: String
     let ok: Bool
     let responseType: String
     let level: String
+    
+    func count() -> Int {
+        return data.count
+    }
 }
+
+

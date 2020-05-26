@@ -9,7 +9,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - "=="
 - "Bool"
-- "Codable"
+- "Decodable"
 - "Float"
 - !private "FloatLiteralType"
 - "Int32"
@@ -56,27 +56,12 @@ depends-member:
 - !private ["Se", "cost"]
 - !private ["Se", "description"]
 - !private ["Se", "displayName"]
-- ["Se", "encode"]
 - !private ["Se", "id"]
 - ["Se", "init"]
 - !private ["Se", "isActive"]
 - !private ["Se", "note"]
 - !private ["Se", "price"]
 - !private ["s7DecoderP", "container"]
-- ["SE", ""]
-- !private ["SE", "category"]
-- !private ["SE", "categoryId"]
-- !private ["SE", "code"]
-- !private ["SE", "cost"]
-- !private ["SE", "description"]
-- !private ["SE", "displayName"]
-- ["SE", "encode"]
-- !private ["SE", "id"]
-- ["SE", "init"]
-- !private ["SE", "isActive"]
-- !private ["SE", "note"]
-- !private ["SE", "price"]
-- !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
 - !private ["SQ", ""]
 - ["SQ", "_rawHashValue"]
@@ -102,11 +87,8 @@ depends-member:
 - !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
-- !private ["s22KeyedEncodingContainerV", "encode"]
-- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
-- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
-- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
 - ["16KeyNinjaShopping0C4ItemV", "Bool"]
+- !private ["16KeyNinjaShopping0C4ItemV", "CodingKeys"]
 - ["16KeyNinjaShopping0C4ItemV", "Float"]
 - ["16KeyNinjaShopping0C4ItemV", "Int32"]
 - ["16KeyNinjaShopping0C4ItemV", "String"]
@@ -117,7 +99,6 @@ depends-member:
 - ["16KeyNinjaShopping0C4ItemV", "deinit"]
 - ["16KeyNinjaShopping0C4ItemV", "description"]
 - ["16KeyNinjaShopping0C4ItemV", "displayName"]
-- ["16KeyNinjaShopping0C4ItemV", "encode"]
 - ["16KeyNinjaShopping0C4ItemV", "id"]
 - ["16KeyNinjaShopping0C4ItemV", "init"]
 - ["16KeyNinjaShopping0C4ItemV", "isActive"]
@@ -129,15 +110,11 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - "Se"
 - !private "s7DecoderP"
-- "SE"
-- !private "s7EncoderP"
 - "SQ"
 - "SH"
 - !private "s6HasherV"
 - !private "s22KeyedDecodingContainerV"
 - !private "s30KeyedDecodingContainerProtocolP"
-- !private "s22KeyedEncodingContainerV"
-- !private "s30KeyedEncodingContainerProtocolP"
 - "16KeyNinjaShopping0C4ItemV"
 depends-dynamic-lookup:
 depends-external:
@@ -180,4 +157,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1642fc213714c67523f5cb5c8cb6cb6c"
+interface-hash: "868c631b825ef0eb9366566c1474a1c4"
