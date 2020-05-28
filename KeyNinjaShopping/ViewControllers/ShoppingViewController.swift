@@ -12,12 +12,16 @@ class ShoppingViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var backgroundHeader: UIView!
+    
     var jsonExtractionDataItems = [DataItems]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        
+        
+        tableView.rowHeight = 200;
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
@@ -67,6 +71,13 @@ extension ShoppingViewController: UITableViewDataSource, UITableViewDelegate {
         let item = jsonExtractionDataItems[0]
 
         cell.setItems(item: item.data[indexPath.row])
+        
+        cell.layer.masksToBounds = true
+        cell.layer.cornerRadius = 30
+        cell.layer.borderWidth = 0.5
+        cell.layer.shadowOffset = CGSize(width: -1, height: 1)
+        let borderColor: UIColor = .gray
+        cell.layer.borderColor = borderColor.cgColor
 
         return cell
     }

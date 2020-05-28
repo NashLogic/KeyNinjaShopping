@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565FD434247DDF8700A01B18 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FD433247DDF8700A01B18 /* NavigationController.swift */; };
 		569AFF6F247D29F8001C4761 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569AFF6E247D29F8001C4761 /* ShoppingItem.swift */; };
 		569AFF71247D2C2D001C4761 /* DataItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569AFF70247D2C2D001C4761 /* DataItems.swift */; };
 		569AFF73247D47B2001C4761 /* ItemCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569AFF72247D47B2001C4761 /* ItemCells.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565FD433247DDF8700A01B18 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		569AFF6E247D29F8001C4761 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 		569AFF70247D2C2D001C4761 /* DataItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItems.swift; sourceTree = "<group>"; };
 		569AFF72247D47B2001C4761 /* ItemCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCells.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565FD435247DDF9A00A01B18 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				565FD433247DDF8700A01B18 /* NavigationController.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
 		569AFF6D247D29D7001C4761 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		56BD5D01247BA4A900947A0B /* KeyNinjaShopping */ = {
 			isa = PBXGroup;
 			children = (
+				565FD435247DDF9A00A01B18 /* NavigationControllers */,
 				569AFF6D247D29D7001C4761 /* Common */,
 				56BD5D18247BA4E700947A0B /* Storyboards */,
 				56BD5D17247BA4D200947A0B /* ViewControllers */,
@@ -184,6 +195,7 @@
 				56BD5D07247BA4A900947A0B /* ShoppingViewController.swift in Sources */,
 				56BD5D03247BA4A900947A0B /* AppDelegate.swift in Sources */,
 				569AFF73247D47B2001C4761 /* ItemCells.swift in Sources */,
+				565FD434247DDF8700A01B18 /* NavigationController.swift in Sources */,
 				56BD5D05247BA4A900947A0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

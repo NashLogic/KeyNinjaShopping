@@ -13,9 +13,11 @@ class ItemCells : UITableViewCell {
     
     @IBOutlet weak var PriceLabel: UILabel!
     @IBOutlet weak var DescriptionLabel: UILabel!
+    @IBOutlet weak var DisplayNameLabel: UILabel!
     
     func setItems(item: ShoppingItem) {
-        PriceLabel.text = String(item.price)
+        DisplayNameLabel.text = item.displayName
         DescriptionLabel.text = item.description
+        PriceLabel.text = "$" + String(item.price)
     }
 }

@@ -220,8 +220,21 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping9ItemCells")
 @interface ItemCells : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified PriceLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified DescriptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified DisplayNameLabel;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIViewController;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC16KeyNinjaShopping20NavigationController")
+@interface NavigationController : UINavigationController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=5.0);
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIWindow;
@@ -241,7 +254,6 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping13SceneDelegate")
 
 @class UITableView;
 @class UIView;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC16KeyNinjaShopping22ShoppingViewController")
 @interface ShoppingViewController : UIViewController

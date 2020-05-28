@@ -10,16 +10,16 @@
         <!--Shopping View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ShoppingViewController" customModule="KeyNinjaShopping" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ShoppingViewController" customModule="KeyNinjaShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3m8-ei-8bB" userLabel="BackgroundHeader">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                                 <color key="backgroundColor" red="0.34509803921568627" green="0.10196078431372549" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="cHZ-Qz-siO"/>
+                                    <constraint firstAttribute="height" constant="160" id="Q5G-UR-LjP"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18a-aZ-SK6" userLabel="Header">
@@ -43,49 +43,56 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ylV-17-E7n">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ylV-17-E7n">
                                 <rect key="frame" x="0.0" y="144" width="414" height="718"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="Ue7-rU-uSe"/>
                                 </constraints>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="200" id="rZz-nx-vY1" customClass="ItemCells" customModule="KeyNinjaShopping" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rZz-nx-vY1" id="rod-wM-f20">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rZz-nx-vY1" id="rod-wM-f20" userLabel="ItemCellContentView">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRR-pw-fHA">
-                                                    <rect key="frame" x="187.5" y="108.5" width="39" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-NI-xTO" userLabel="DisplayName">
+                                                    <rect key="frame" x="176" y="51" width="62.5" height="28"/>
+                                                    <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="24"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXd-Hd-MYm">
-                                                    <rect key="frame" x="147" y="47" width="120" height="20.5"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="120" id="l8P-hT-94a"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXd-Hd-MYm">
+                                                    <rect key="frame" x="163" y="109" width="88" height="20"/>
+                                                    <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRR-pw-fHA">
+                                                    <rect key="frame" x="187.5" y="139" width="39" height="20"/>
+                                                    <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="MRR-pw-fHA" firstAttribute="top" secondItem="gXd-Hd-MYm" secondAttribute="bottom" constant="41" id="5tQ-EL-bdO"/>
-                                                <constraint firstItem="MRR-pw-fHA" firstAttribute="leading" secondItem="rod-wM-f20" secondAttribute="leadingMargin" constant="167.5" id="CpK-uR-jhw"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="MRR-pw-fHA" secondAttribute="bottom" constant="60" id="FDx-kS-KC5"/>
-                                                <constraint firstItem="MRR-pw-fHA" firstAttribute="top" secondItem="gXd-Hd-MYm" secondAttribute="bottom" constant="41" id="Utt-17-agL"/>
-                                                <constraint firstItem="gXd-Hd-MYm" firstAttribute="centerX" secondItem="rod-wM-f20" secondAttribute="centerX" id="ZB0-7d-43D"/>
-                                                <constraint firstItem="gXd-Hd-MYm" firstAttribute="top" secondItem="rod-wM-f20" secondAttribute="topMargin" constant="36" id="fIW-bC-ja3"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="MRR-pw-fHA" secondAttribute="trailing" constant="167.5" id="tHX-g6-bi5"/>
+                                                <constraint firstItem="Sfb-NI-xTO" firstAttribute="centerX" secondItem="rod-wM-f20" secondAttribute="centerX" id="4IM-b3-gZu"/>
+                                                <constraint firstItem="gXd-Hd-MYm" firstAttribute="top" secondItem="Sfb-NI-xTO" secondAttribute="bottom" constant="30" id="5vg-Dk-8sV"/>
+                                                <constraint firstItem="MRR-pw-fHA" firstAttribute="top" secondItem="gXd-Hd-MYm" secondAttribute="bottom" constant="10" id="IqL-vD-hrC"/>
+                                                <constraint firstItem="Sfb-NI-xTO" firstAttribute="top" secondItem="rod-wM-f20" secondAttribute="topMargin" constant="40" id="Tu9-T7-hOS"/>
+                                                <constraint firstItem="MRR-pw-fHA" firstAttribute="centerX" secondItem="rod-wM-f20" secondAttribute="centerX" id="m1o-hG-6UX"/>
+                                                <constraint firstItem="gXd-Hd-MYm" firstAttribute="centerX" secondItem="rod-wM-f20" secondAttribute="centerX" id="uph-Xv-kBK"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="DescriptionLabel" destination="gXd-Hd-MYm" id="dkb-j7-9LJ"/>
+                                            <outlet property="DisplayNameLabel" destination="Sfb-NI-xTO" id="Igr-9h-Zjc"/>
                                             <outlet property="PriceLabel" destination="MRR-pw-fHA" id="zcI-6x-9Ph"/>
+                                            <segue destination="7Jh-FL-WvQ" kind="popoverPresentation" popoverAnchorView="rZz-nx-vY1" id="LR3-vU-LLK">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -107,6 +114,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="VQ0-Dd-uDj"/>
                     <connections>
                         <outlet property="backgroundHeader" destination="3m8-ei-8bB" id="hQq-c4-Gub"/>
                         <outlet property="tableView" destination="ylV-17-E7n" id="may-sx-138"/>
@@ -114,7 +123,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="100.44642857142857"/>
+            <point key="canvasLocation" x="1042.0289855072465" y="100.44642857142857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8mx-Hs-FBe">
+            <objects>
+                <viewController id="7Jh-FL-WvQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Mh-H3-KbR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mpf-cb-hXT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fMZ-YD-sp1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1J3-l0-Kng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2309" y="-44"/>
         </scene>
     </scenes>
 </document>
