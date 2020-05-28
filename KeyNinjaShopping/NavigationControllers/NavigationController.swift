@@ -11,8 +11,9 @@ import UIKit
 
 class NavigationController: UINavigationController {
     override func viewDidLoad() {
-           super.viewDidLoad()
+        super.viewDidLoad()
         performSegue(withIdentifier: "ToRootViewController", sender: self)
+//        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
 }

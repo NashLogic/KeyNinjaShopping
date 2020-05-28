@@ -17,15 +17,24 @@ class ShoppingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        
-        
+        hideNavigationBar()
+        setupTableView()
+        retrieveJSON()
+    }
+    
+    func hideNavigationBar() {
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    func setupTableView() {
         tableView.rowHeight = 200;
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
+    }
+    
+    func retrieveJSON() {
         if let url = URL(string: "https://keyninja-internal.azurewebsites.net/api/product") {
             URLSession.shared.dataTask(with: url) { data, response, error in
                 if let data = data {
@@ -44,12 +53,20 @@ class ShoppingViewController: UIViewController {
                 }
             }.resume()
         }
-
-        
-
     }
     
-         
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is ItemViewController
+        {
+            let vc = segue.destination as? ItemViewController
+            let tableIndex = tableView.indexPathForSelectedRow?.row
+            
+            vc?.tempDisplayName = jsonExtractionDataItems[tableIndex!].data[0].displayName
+            vc?.tempDescription = jsonExtractionDataItems[tableIndex!].data[0].description
+            vc?.tempPrice = String(jsonExtractionDataItems[tableIndex!].data[0].price)
+        }
+    }
 }
 
 extension ShoppingViewController: UITableViewDataSource, UITableViewDelegate {
@@ -81,4 +98,8 @@ extension ShoppingViewController: UITableViewDataSource, UITableViewDelegate {
 
         return cell
     }
+    
+    
 }
+
+

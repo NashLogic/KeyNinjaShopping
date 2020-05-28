@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4492AED6-C2A0-4F1E-B2E7-F27463242AC5</key>
+		<key>D158E25F-D897-434B-AE4D-A53FD6DE2C89</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4492AED6-C2A0-4F1E-B2E7-F27463242AC5.xcactivitylog</string>
+			<string>D158E25F-D897-434B-AE4D-A53FD6DE2C89.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>KeyNinjaShopping project</string>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Build KeyNinjaShopping</string>
 			<key>timeStartedRecording</key>
-			<real>612229625.79021096</real>
+			<real>612366583.97143805</real>
 			<key>timeStoppedRecording</key>
-			<real>612229629.15678596</real>
+			<real>612366585.58213401</real>
 			<key>title</key>
 			<string>Build KeyNinjaShopping</string>
 			<key>uniqueIdentifier</key>
-			<string>4492AED6-C2A0-4F1E-B2E7-F27463242AC5</string>
+			<string>D158E25F-D897-434B-AE4D-A53FD6DE2C89</string>
 		</dict>
 	</dict>
 </dict>

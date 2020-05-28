@@ -90,9 +90,7 @@
                                             <outlet property="DescriptionLabel" destination="gXd-Hd-MYm" id="dkb-j7-9LJ"/>
                                             <outlet property="DisplayNameLabel" destination="Sfb-NI-xTO" id="Igr-9h-Zjc"/>
                                             <outlet property="PriceLabel" destination="MRR-pw-fHA" id="zcI-6x-9Ph"/>
-                                            <segue destination="7Jh-FL-WvQ" kind="popoverPresentation" popoverAnchorView="rZz-nx-vY1" id="LR3-vU-LLK">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
+                                            <segue destination="7Jh-FL-WvQ" kind="show" id="DVp-je-TlT"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -115,7 +113,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" id="VQ0-Dd-uDj"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="VQ0-Dd-uDj"/>
                     <connections>
                         <outlet property="backgroundHeader" destination="3m8-ei-8bB" id="hQq-c4-Gub"/>
                         <outlet property="tableView" destination="ylV-17-E7n" id="may-sx-138"/>
@@ -123,23 +121,114 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="100.44642857142857"/>
+            <point key="canvasLocation" x="1952.1739130434785" y="100.44642857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--Item View Controller-->
         <scene sceneID="8mx-Hs-FBe">
             <objects>
-                <viewController id="7Jh-FL-WvQ" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" id="7Jh-FL-WvQ" customClass="ItemViewController" customModule="KeyNinjaShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Mh-H3-KbR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caP-vw-JeV" userLabel="BackgroundHeader">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                <color key="backgroundColor" red="0.34509803919999998" green="0.1019607843" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="4PY-rm-TVV"/>
+                                    <constraint firstAttribute="width" constant="414" id="zBg-sW-qSZ"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5sM-rK-hi0" userLabel="Header">
+                                <rect key="frame" x="113" y="40" width="188.5" height="120"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DlU-DQ-Qdz" userLabel="Title">
+                                        <rect key="frame" x="0.0" y="0.0" width="188.5" height="120"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KeyNinja" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23S-tg-ovd">
+                                                <rect key="frame" x="0.0" y="0.0" width="188.5" height="96.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="96.5" id="i1h-aO-bNY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="42"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DisplayName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDB-6l-Uky" userLabel="DisplayNameLabel">
+                                                <rect key="frame" x="0.0" y="96.5" width="188.5" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="5JI-1G-ZEc"/>
+                                            <constraint firstItem="hDB-6l-Uky" firstAttribute="top" secondItem="23S-tg-ovd" secondAttribute="bottom" id="NJu-0D-MZs"/>
+                                            <constraint firstItem="hDB-6l-Uky" firstAttribute="centerX" secondItem="DlU-DQ-Qdz" secondAttribute="centerX" id="gmC-AD-AdE"/>
+                                            <constraint firstItem="23S-tg-ovd" firstAttribute="centerX" secondItem="DlU-DQ-Qdz" secondAttribute="centerX" id="z54-6H-Tlz"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Rw-Vg-u8V" userLabel="DescriptionLabel">
+                                <rect key="frame" x="163" y="250" width="88" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hms-cu-BMD" userLabel="PriceLabel">
+                                <rect key="frame" x="187.5" y="370.5" width="39" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="J0l-TQ-Nvf">
+                                <rect key="frame" x="131" y="457" width="94" height="32"/>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hz8-vE-Ijo">
+                                <rect key="frame" x="167.5" y="499" width="79" height="30"/>
+                                <state key="normal" title="Add to Cart"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOw-My-pJL">
+                                <rect key="frame" x="243" y="463" width="8" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hz8-vE-Ijo" firstAttribute="top" secondItem="J0l-TQ-Nvf" secondAttribute="bottom" constant="10" id="DFe-RN-ZdV"/>
+                            <constraint firstItem="hz8-vE-Ijo" firstAttribute="centerX" secondItem="7Mh-H3-KbR" secondAttribute="centerX" id="Ef8-Fx-pwq"/>
+                            <constraint firstItem="caP-vw-JeV" firstAttribute="top" secondItem="7Mh-H3-KbR" secondAttribute="top" id="Hdm-pn-Zq3"/>
+                            <constraint firstItem="caP-vw-JeV" firstAttribute="centerX" secondItem="7Mh-H3-KbR" secondAttribute="centerX" id="L9b-6d-JhV"/>
+                            <constraint firstItem="6Rw-Vg-u8V" firstAttribute="centerX" secondItem="7Mh-H3-KbR" secondAttribute="centerX" id="N2I-4O-isR"/>
+                            <constraint firstItem="6Rw-Vg-u8V" firstAttribute="top" secondItem="caP-vw-JeV" secondAttribute="bottom" constant="90" id="NN5-Gs-Uzh"/>
+                            <constraint firstItem="SOw-My-pJL" firstAttribute="leading" secondItem="J0l-TQ-Nvf" secondAttribute="trailing" constant="18" id="RJM-mv-mAL"/>
+                            <constraint firstItem="hms-cu-BMD" firstAttribute="top" secondItem="6Rw-Vg-u8V" secondAttribute="bottom" constant="100" id="TtJ-pX-syP"/>
+                            <constraint firstItem="hms-cu-BMD" firstAttribute="centerX" secondItem="7Mh-H3-KbR" secondAttribute="centerX" id="UOy-fy-L1X"/>
+                            <constraint firstItem="5sM-rK-hi0" firstAttribute="centerX" secondItem="7Mh-H3-KbR" secondAttribute="centerX" id="VLO-IL-mQ7"/>
+                            <constraint firstItem="J0l-TQ-Nvf" firstAttribute="leading" secondItem="mpf-cb-hXT" secondAttribute="leading" constant="131" id="Xbh-CI-IV3"/>
+                            <constraint firstItem="caP-vw-JeV" firstAttribute="trailing" secondItem="mpf-cb-hXT" secondAttribute="trailing" id="axq-L4-T7Y"/>
+                            <constraint firstItem="SOw-My-pJL" firstAttribute="top" secondItem="6Rw-Vg-u8V" secondAttribute="bottom" constant="192.5" id="bQ4-eT-OQq"/>
+                            <constraint firstItem="5sM-rK-hi0" firstAttribute="top" secondItem="7Mh-H3-KbR" secondAttribute="top" constant="40" id="ffL-gU-VEi"/>
+                            <constraint firstItem="J0l-TQ-Nvf" firstAttribute="top" secondItem="hms-cu-BMD" secondAttribute="bottom" constant="66" id="uMY-Hu-5W9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="mpf-cb-hXT"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fMZ-YD-sp1"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="DescriptionLabel" destination="6Rw-Vg-u8V" id="zw1-GC-lAQ"/>
+                        <outlet property="DisplayNameLabel" destination="hDB-6l-Uky" id="1pq-xA-hgW"/>
+                        <outlet property="PriceLabel" destination="hms-cu-BMD" id="CT2-1e-Tf7"/>
+                        <outlet property="Stepper" destination="J0l-TQ-Nvf" id="jrq-zM-U3X"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1J3-l0-Kng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2309" y="-44"/>
+            <point key="canvasLocation" x="3100.0000000000005" y="-21.428571428571427"/>
         </scene>
     </scenes>
 </document>
