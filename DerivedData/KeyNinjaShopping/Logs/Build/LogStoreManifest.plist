@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>D158E25F-D897-434B-AE4D-A53FD6DE2C89</key>
+		<key>2865C183-453A-4EF7-A129-43CF8887B3D8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>D158E25F-D897-434B-AE4D-A53FD6DE2C89.xcactivitylog</string>
+			<string>2865C183-453A-4EF7-A129-43CF8887B3D8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,183 @@
 			<key>signature</key>
 			<string>Build KeyNinjaShopping</string>
 			<key>timeStartedRecording</key>
-			<real>612366583.97143805</real>
+			<real>613185088.11292398</real>
 			<key>timeStoppedRecording</key>
-			<real>612366585.58213401</real>
+			<real>613185089.92348099</real>
 			<key>title</key>
 			<string>Build KeyNinjaShopping</string>
 			<key>uniqueIdentifier</key>
-			<string>D158E25F-D897-434B-AE4D-A53FD6DE2C89</string>
+			<string>2865C183-453A-4EF7-A129-43CF8887B3D8</string>
+		</dict>
+		<key>44AE51C9-AE15-47DD-ADF9-C1F329FD3AE6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>44AE51C9-AE15-47DD-ADF9-C1F329FD3AE6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>613180774.19419301</real>
+			<key>timeStoppedRecording</key>
+			<real>613180781.45471895</real>
+			<key>title</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>44AE51C9-AE15-47DD-ADF9-C1F329FD3AE6</string>
+		</dict>
+		<key>780882DC-A50B-4211-8698-1E932B3B8FDD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>780882DC-A50B-4211-8698-1E932B3B8FDD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>613184976.65786803</real>
+			<key>timeStoppedRecording</key>
+			<real>613184976.77071095</real>
+			<key>title</key>
+			<string>Clean KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>780882DC-A50B-4211-8698-1E932B3B8FDD</string>
+		</dict>
+		<key>ACC3861D-AAD8-40F6-BF66-EE308A3A62A5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ACC3861D-AAD8-40F6-BF66-EE308A3A62A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>613184977.08720398</real>
+			<key>timeStoppedRecording</key>
+			<real>613184984.24643397</real>
+			<key>title</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>ACC3861D-AAD8-40F6-BF66-EE308A3A62A5</string>
+		</dict>
+		<key>DEFCFCA0-023F-496D-A40B-5467B5F20C5D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DEFCFCA0-023F-496D-A40B-5467B5F20C5D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>613184904.81647301</real>
+			<key>timeStoppedRecording</key>
+			<real>613184910.06358802</real>
+			<key>title</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>DEFCFCA0-023F-496D-A40B-5467B5F20C5D</string>
+		</dict>
+		<key>E6C3D28F-9857-4E10-89FA-95BF15402A57</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6C3D28F-9857-4E10-89FA-95BF15402A57.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KeyNinjaShopping project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KeyNinjaShopping</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>timeStartedRecording</key>
+			<real>613185126.54689503</real>
+			<key>timeStoppedRecording</key>
+			<real>613185127.90313101</real>
+			<key>title</key>
+			<string>Build KeyNinjaShopping</string>
+			<key>uniqueIdentifier</key>
+			<string>E6C3D28F-9857-4E10-89FA-95BF15402A57</string>
 		</dict>
 	</dict>
 </dict>

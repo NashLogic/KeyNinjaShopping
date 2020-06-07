@@ -1,12 +1,13 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "6c43cbd9999c11d846aab7c61096a54c"
-build_time: [1590674081, 56238000]
+build_time: [1591492177, 255356000]
 inputs:
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/Common/DataItems.swift": [1590504368, 122979549]
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/ViewControllers/ItemViewController.swift": [1590674080, 743015841]
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/Common/ShoppingItem.swift": [1590500700, 281762001]
-  "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/ViewControllers/ShoppingViewController.swift": [1590673783, 964467804]
+  "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/ViewControllers/ShoppingViewController.swift": [1591487363, 153582882]
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/Delegates/AppDelegate.swift": [1590390057, 85788576]
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/Common/ItemCells.swift": [1590534230, 188377776]
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/NavigationControllers/NavigationController.swift": [1590665087, 0]
+  "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/ViewControllers/CartViewController.swift": [1591442648, 381143064]
   "/Users/nicholasglover/Documents/GitHub/KeyNinjaShopping/KeyNinjaShopping/Delegates/SceneDelegate.swift": [1590390057, 102699535]

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>FA98FF2E-7973-4E43-802B-C3F331E5ED05</key>
+		<key>ECC54113-F701-4F23-9499-555E57803D35</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>FA98FF2E-7973-4E43-802B-C3F331E5ED05.xcactivitylog</string>
+			<string>ECC54113-F701-4F23-9499-555E57803D35.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>KeyNinjaShopping-hhtplpbtkbbadhahozkofnignqej</string>
 			<key>timeStartedRecording</key>
-			<real>612366584.01022398</real>
+			<real>613185126.63276899</real>
 			<key>timeStoppedRecording</key>
-			<real>612366585.57085395</real>
+			<real>613185127.89728796</real>
 			<key>title</key>
 			<string>Build target KeyNinjaShopping</string>
 			<key>uniqueIdentifier</key>
-			<string>FA98FF2E-7973-4E43-802B-C3F331E5ED05</string>
+			<string>ECC54113-F701-4F23-9499-555E57803D35</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

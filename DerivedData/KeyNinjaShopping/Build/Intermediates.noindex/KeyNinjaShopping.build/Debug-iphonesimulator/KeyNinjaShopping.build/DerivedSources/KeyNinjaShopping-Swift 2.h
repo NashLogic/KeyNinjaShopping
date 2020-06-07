@@ -213,8 +213,17 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC16KeyNinjaShopping18CartViewController")
+@interface CartViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
 
 SWIFT_CLASS("_TtC16KeyNinjaShopping9ItemCells")
 @interface ItemCells : UITableViewCell
@@ -225,13 +234,14 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping9ItemCells")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+@class UIStepper;
 
 SWIFT_CLASS("_TtC16KeyNinjaShopping18ItemViewController")
 @interface ItemViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified DisplayNameLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified DescriptionLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified PriceLabel;
+@property (nonatomic, weak) IBOutlet UIStepper * _Null_unspecified Stepper;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -264,12 +274,15 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping13SceneDelegate")
 
 @class UITableView;
 @class UIView;
+@class UIButton;
 @class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC16KeyNinjaShopping22ShoppingViewController")
 @interface ShoppingViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backgroundHeader;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backgroundFooter;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified cartButton;
 - (void)viewDidLoad;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -280,6 +293,7 @@ SWIFT_CLASS("_TtC16KeyNinjaShopping22ShoppingViewController")
 @interface ShoppingViewController (SWIFT_EXTENSION(KeyNinjaShopping)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 #if __has_attribute(external_source_symbol)

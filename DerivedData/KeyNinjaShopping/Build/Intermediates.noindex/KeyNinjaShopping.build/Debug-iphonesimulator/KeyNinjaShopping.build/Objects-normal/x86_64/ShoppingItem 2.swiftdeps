@@ -88,6 +88,7 @@ depends-member:
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
 - ["16KeyNinjaShopping0C4ItemV", "Bool"]
+- !private ["16KeyNinjaShopping0C4ItemV", "CodingKeys"]
 - ["16KeyNinjaShopping0C4ItemV", "Float"]
 - ["16KeyNinjaShopping0C4ItemV", "Int32"]
 - ["16KeyNinjaShopping0C4ItemV", "String"]
